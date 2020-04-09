@@ -1,0 +1,8 @@
+pymongo
+tensorflow
+jieba
+paddlepaddle-tiny
+scikit-learn
+wordcloud
+flask
+flask-socketio
