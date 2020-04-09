@@ -8,7 +8,7 @@ from segmenter.jieba_segmenter import JieBaSegmenter
 def main():
     datasource = MongoDataSource()
     res = datasource.get_recent_data(1)
-    path = os.path.abspath('..')
+    path = os.path.abspath('.')
     wc = WordCloud(font_path=path + r'/res/font/FangZhengKaiTiJianTi.ttf',
                    background_color='black',
                    width=1920,

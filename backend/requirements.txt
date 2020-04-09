@@ -1,7 +1,12 @@
 pymongo
+mongoengine
+
+pymysql
+
 tensorflow
 jieba
 paddlepaddle-tiny
 wordcloud
 Django
+django-cors-headers
 channels

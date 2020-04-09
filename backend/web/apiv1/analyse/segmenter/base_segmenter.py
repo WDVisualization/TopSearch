@@ -69,6 +69,7 @@ class BaseSegmenter(metaclass=ABCMeta):
             self.stop_words_dic = list()
 
         path = os.path.abspath("..")
+        print(path)
 
         temp = open(path + r'/res/stopwords/baidu_stopwords.txt',
                     'rb').read().decode('utf-8').split('\n')
